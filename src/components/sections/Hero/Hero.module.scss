@@ -1,8 +1,15 @@
 @use "../../../styles/abstracts/variables" as *;
 @use "../../../styles/abstracts/mixins" as *;
 
-#home {
+.hero {
   padding: var(--spacing-xlarge) var(--spacing-page);
+  @include background-cover;
+  min-height: 20vh;
+
+  h2 {
+    font-size: var(--font-size-xxlarge);
+    color: var(--color-light);
+  }
 
   h3 {
     font-size: var(--font-size-large);
@@ -25,7 +32,7 @@
   .greeting {
     display: none;
   }
-  #home .even_columns {
+  .hero :global(.even_columns) {
     flex-direction: column;
     align-items: center;
     text-align: center;

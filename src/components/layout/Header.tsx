@@ -3,7 +3,7 @@ import logo from "../../assets/images/logo.png";
 function Header() {
   return (
     <header>
-      <img src={logo} alt="Logo" />
+      <img src={logo} alt="Logo" className="logo" />
       <nav>
         <ul>
           <li>
