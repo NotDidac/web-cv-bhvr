@@ -1,4 +1,4 @@
-import SectionHeader from "../ui/SectionHeader/SectionHeader";
+import SectionHeader from "../ui/SectionHeader";
 
 function AboutMe() {
   return (

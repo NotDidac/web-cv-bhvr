@@ -1,5 +1,5 @@
 import sytles from "./SectionHeader.module.scss";
-import sectionHeaderImg from "../../../assets/images/section-header.png";
+import sectionHeaderImg from "../../../assets/images/shared/section-header.png";
 
 function SectionHeader({ title }: { title: string }) {
   return (

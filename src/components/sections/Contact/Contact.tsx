@@ -1,5 +1,5 @@
-import yellowArrow from "../../../assets/images/yellow-arrow.png";
-import dark_bg from "./dark-bg.png";
+import yellowArrow from "../../../assets/images/shared/yellow-arrow.png";
+import dark_bg from "../../../assets/images/components/sections/contact/dark-bg.png";
 import styles from "./Contact.module.scss";
 
 function Contact() {

@@ -1,5 +1,5 @@
-import profilePhoto from "./profile-photo.png";
-import SectionHeaderImg from "../../../assets/images/section-header.png";
+import profilePhoto from "../../../assets/images/components/sections/hero/profile-photo.png";
+import SectionHeaderImg from "../../../assets/images/shared/section-header.png";
 import styles from "./Hero.module.scss";
 
 function Hero() {
@@ -11,7 +11,7 @@ function Hero() {
         backgroundImage: `url(${SectionHeaderImg})`,
       }}
     >
-      <div className="even_columns">
+      <div className="even-columns">
         <div>
           <h2>
             <span className={styles.greeting}>Hi, I'm </span>
@@ -23,11 +23,7 @@ function Hero() {
           <p>C • Python • HTML • CSS • JavaScript • React</p>
           <button>View Projects</button>
         </div>
-        <img
-          src={profilePhoto}
-          alt="Dídac Guillem Mimó"
-          className="profile-pic"
-        />
+        <img src={profilePhoto} alt="Dídac Guillem Mimó" />
       </div>
     </section>
   );

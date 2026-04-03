@@ -32,7 +32,7 @@
   .greeting {
     display: none;
   }
-  .hero :global(.even_columns) {
+  .hero :global(.even-columns) {
     flex-direction: column;
     align-items: center;
     text-align: center;

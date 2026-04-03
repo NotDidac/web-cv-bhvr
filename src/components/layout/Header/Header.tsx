@@ -1,9 +1,10 @@
-import logo from "../../assets/images/logo.png";
+import logo from "../../../assets/images/shared/logo.png";
+import styles from "./Header.module.scss";
 
 function Header() {
   return (
-    <header>
-      <img src={logo} alt="Logo" className="logo" />
+    <header className={styles.header}>
+      <img src={logo} alt="Logo" className={styles.logo} />
       <nav>
         <ul>
           <li>
@@ -23,7 +24,7 @@ function Header() {
           </li>
         </ul>
       </nav>
-      <button>Hire Me</button>
+      <button className={styles.button}>Hire Me</button>
     </header>
   );
 }

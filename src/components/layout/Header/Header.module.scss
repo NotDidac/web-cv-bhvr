@@ -1,0 +1,55 @@
+@use "../../../styles/abstracts/variables" as *;
+@use "../../../styles/abstracts/mixins" as *;
+
+header {
+  @include flex-space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 var(--spacing-page);
+  gap: var(--spacing-small);
+
+  .logo {
+    max-width: clamp(30px, 5vw, 50px);
+  }
+
+  .title {
+    font-size: var(--font-size-large);
+    color: var(--color-dark);
+  }
+
+  button {
+    margin: var(--spacing-xsmall) 0;
+    padding: var(--spacing-xsmall) var(--spacing-base);
+  }
+
+  nav {
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: clamp(0.25rem, 1.5vw, 1.5rem);
+    }
+  }
+}
+
+@media (max-width: $tablet-breakpoint) {
+  header {
+    justify-content: space-evenly;
+    padding: var(--spacing-small) var(--spacing-base);
+
+    button {
+      display: none;
+    }
+
+    nav {
+      ul {
+        justify-content: center;
+        gap: var(--spacing-small);
+
+        li a {
+          padding: clamp(0.25rem, 1vw, 0.5rem) clamp(0.5rem, 1.5vw, 0.75rem);
+        }
+      }
+    }
+  }
+}
