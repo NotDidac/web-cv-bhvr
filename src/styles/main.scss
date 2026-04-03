@@ -1,2 +1,11 @@
-@use 'index';
-@use 'app';
+@use "abstracts/variables";
+@use "abstracts/mixins";
+
+@use "base/reset";
+@use "base/typography";
+@use "base/base";
+
+@use "layout/header";
+@use "layout/footer";
+
+@use "utilities/utilities";

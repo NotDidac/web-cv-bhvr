@@ -1,0 +1,31 @@
+@use "../abstracts/variables" as *;
+
+.accent {
+  color: var(--color-primary);
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.background-alt {
+  background-color: var(--color-background-alt);
+}
+
+.scroll-snap {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.even_columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--spacing-large);
+}
+
+.content-block {
+  min-height: 70vh;
+  padding: var(--spacing-large) var(--spacing-page);
+  color: var(--color-dark);
+}
