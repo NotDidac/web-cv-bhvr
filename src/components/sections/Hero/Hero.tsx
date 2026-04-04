@@ -1,15 +1,11 @@
 import profilePhoto from "../../../assets/images/components/sections/hero/profile-photo.png";
-import SectionHeaderImg from "../../../assets/images/shared/section-header.png";
-import styles from "./Hero.module.scss";
+import styles from "./Hero.module.css";
 
 function Hero() {
   return (
     <section
       id="home"
       className={styles.hero}
-      style={{
-        backgroundImage: `url(${SectionHeaderImg})`,
-      }}
     >
       <div className="even-columns">
         <div>

@@ -1,12 +1,8 @@
-import sytles from "./SectionHeader.module.scss";
-import sectionHeaderImg from "../../../assets/images/shared/section-header.png";
+import styles from "./SectionHeader.module.css";
 
 function SectionHeader({ title }: { title: string }) {
   return (
-    <div
-      className={sytles.sectionHeader}
-      style={{ backgroundImage: `url(${sectionHeaderImg})` }}
-    >
+    <div className={styles.sectionHeader}>
       <h2>{title}</h2>
     </div>
   );

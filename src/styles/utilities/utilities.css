@@ -1,0 +1,57 @@
+/* Utility Classes - Converted from Sass mixins and existing utilities */
+
+/* Background utilities */
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-alt {
+  background-color: var(--color-background-alt);
+}
+
+/* Flexbox utilities */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.even-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--spacing-large);
+}
+
+/* Text utilities */
+.accent {
+  color: var(--color-primary);
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* Layout utilities */
+.content-block {
+  min-height: 70vh;
+  padding: var(--spacing-large) var(--spacing-page);
+  color: var(--color-dark);
+}
+
+.scroll-snap {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}

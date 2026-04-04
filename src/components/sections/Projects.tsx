@@ -12,7 +12,7 @@ function Projects() {
           suscipit omnis quod cum sapiente.
         </p>
       </div>
-      <div className="content-block background-alt">
+      <div className="content-block bg-alt">
         <h2>Another project...</h2>
         <h3>Python - Data Analysis</h3>
         <p>

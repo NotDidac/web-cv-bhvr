@@ -1,7 +1,6 @@
-$tablet-breakpoint: 768px;
-$laptop-breakpoint: 1024px;
-
-$font-path: "../fonts/";
+/* Media Query Breakpoints - Use these values in @media queries */
+/* Tablet: 768px */
+/* Laptop: 1024px */
 
 :root {
   /* Colors - Primary Palette */

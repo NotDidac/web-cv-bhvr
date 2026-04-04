@@ -1,14 +1,9 @@
 import yellowArrow from "../../../assets/images/shared/yellow-arrow.png";
-import dark_bg from "../../../assets/images/components/sections/contact/dark-bg.png";
-import styles from "./Contact.module.scss";
+import styles from "./Contact.module.css";
 
 function Contact() {
   return (
-    <section
-      id="contact"
-      className={`scroll-snap ${styles.contact}`}
-      style={{ backgroundImage: `url(${dark_bg})` }}
-    >
+    <section id="contact" className={`scroll-snap ${styles.contact}`}>
       <div className={styles.container}>
         <div className={styles.header}>
           <div className={styles.contactMeArrow}>
