@@ -1,75 +1,105 @@
-# React + TypeScript + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **Currently under development** - A modern, responsive portfolio website built to showcase my projects and skills while learning the BHVR (Bun + Hono + Vite + React) framework.
 
-Currently, two official plugins are available:
+## 📋 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This is my personal portfolio website where I'm experimenting with modern web development practices and learning the BHVR framework. The project serves as both a professional showcase and a hands-on learning experience.
 
-## React Compiler
+## 🎯 Learning Goals
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- Master the **BHVR framework** principles and implementation
+- Build modern, responsive web components
+- Practice TypeScript and React best practices
+- Implement accessibility-first design
+- Create smooth, performant user experiences
 
-Note: This will impact Vite dev & build performances.
+## 🛠️ Tech Stack 🚧
 
-## Expanding the ESLint configuration
+- **Framework**: React 18 with TypeScript
+- **Build Tool**: Vite
+- **Styling**: CSS Modules (Moving to Tailwind)
+- **Code Quality**: ESLint + React Compiler
+- **Architecture**: Component-based with BHVR patterns
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📁 Project Structure
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+src/
+├── components/
+│   ├── layout/           # Header, Footer components
+│   ├── sections/         # Hero, About, Projects, Skills, Contact
+│   └── ui/              # Reusable UI components
+├── styles/
+│   ├── abstracts/       # CSS variables and mixins
+│   ├── base/           # Reset, typography, base styles
+│   └── utilities/      # Utility classes
+└── assets/             # Images and static resources
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🎨 Current Sections
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- ✅ **Hero Section** - Eye-catching introduction
+- 🚧 **About Me** - Personal background and story
+- 🚧 **Skills** - Technical expertise showcase
+- 🚧 **Projects** - Portfolio of work
+- 🚧 **Contact** - Get in touch form
+- 🚧 **Additional sections** - In progress
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🚀 Development 🚧
+
+### Prerequisites 🚧
+
+- Node.js (Latest LTS)
+- Bun (Latest stable version)
+
+### Getting Started 🚧
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/my-website-bhvr.git
+
+# Navigate to project directory
+cd my-website-bhvr
+
+# Install dependencies
+bun install
+
+# Start development server
+bun dev
 ```
+
+### Available Scripts 🚧
+
+- `bun dev` - Start development server
+- `bun run build` - Build for production
+- `bun run preview` - Preview production build
+- `bun run lint` - Run ESLint
+
+## 🎯 Development Focus
+
+As I learn the BHVR framework, I'm focusing on:
+
+1. **Component Architecture** - Building reusable, maintainable components
+2. **Performance** - Optimizing for fast load times and smooth interactions
+3. **Accessibility** - Ensuring the site works for all users
+4. **Responsive Design** - Mobile-first approach
+5. **Type Safety** - Leveraging TypeScript for robust code
+
+## 🌟 Features in Development
+
+- [ ] Dark/Light theme toggle
+- [ ] Smooth scroll animations
+
+## 📝 Learning Notes
+
+This project is part of my journey to understand modern web development patterns and the BHVR framework. Feel free to explore the code and provide feedback!
+
+## 🤝 Contributing
+
+While this is a personal portfolio, I welcome feedback and suggestions! Feel free to open issues or reach out with ideas.
+
+---
+
+**Status**: 🚧 Under active development | Learning BHVR framework
+**Last Updated**: April 2026
