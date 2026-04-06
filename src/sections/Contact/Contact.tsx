@@ -1,5 +1,3 @@
-import yellowArrow from "../../../assets/images/shared/yellow-arrow.png";
-
 function Contact() {
   return (
     <section id="contact" className="">
@@ -7,7 +5,6 @@ function Contact() {
         <div className="">
           <div className="">
             <h2 className="">Contact Me</h2>
-            <img src={yellowArrow} alt="Yellow Arrow Icon" className="" />
           </div>
           <h3>Let's set up an interview !</h3>
         </div>

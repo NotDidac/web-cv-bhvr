@@ -1,12 +1,12 @@
-import profilePhoto from "../../../assets/images/components/sections/hero/profile-photo.png";
-import sectionHeaderBg from "../../../assets/images/shared/section-header.png";
-import Button from "../../Button";
+import profilePhoto from "@/assets/images/sections/hero/profile-photo.png";
+import sectionHeaderBg from "@/assets/images/shared/section-header.png";
+import Button from "@/components/Button/Button";
 
 function Hero() {
   return (
     <section
       id="home"
-      className="px-page text-light min-h-[20vh] bg-cover bg-center py-20"
+      className="px-page text-light bg-cover bg-center py-20"
       style={{ backgroundImage: `url(${sectionHeaderBg})` }}
     >
       <div className="flex flex-col justify-between lg:flex-row">

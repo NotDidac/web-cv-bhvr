@@ -1,7 +1,7 @@
-import logo from "../../../assets/images/shared/logo.png";
-import Button from "../../Button";
+import logo from "@/assets/images/shared/logo.png";
+import Button from "@/components/Button";
 
-function Header() {
+function Navbar() {
   return (
     <header className="px-page flex flex-wrap items-center justify-between">
       <img src={logo} alt="Logo" className="max-w-[clamp(30px,5vw,50px)]" />
@@ -29,4 +29,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Navbar;

@@ -1,18 +1,18 @@
 import {
-  Header,
-  Footer,
   Hero,
   Introduction,
   Projects,
   Skills,
   AboutMe,
   Contact,
-} from "./components";
+} from "./sections";
+
+import { Navbar, Footer } from "./layout";
 
 function App() {
   return (
-    <>
-      <Header />
+    <div className="min-h-screen overflow-x-hidden">
+      <Navbar />
       <main>
         <Hero />
         <Introduction />
@@ -22,7 +22,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 

@@ -12,16 +12,16 @@
 
 @theme {
   /* Font Families */
-  --font-sans: "Montserrat", "Open Sans", sans-serif;
+  --font-primary: "Montserrat", "Open Sans", sans-serif;
 
   /* Colors - Primary Palette */
   --color-primary: #f7b948;
-  --color-secondary: #fbc462;
+  --color-primary-alt: #fbc462;
   --color-dark: #222;
   --color-light: #fff;
 
   /* Colors - Background Variations */
-  --color-background: #fff;
+  --color-background: #ffffff;
   --color-background-alt: #f0f0f0;
   --color-background-grey: #2d2d2d;
   --color-background-dark: #252525;
@@ -33,4 +33,17 @@
 
   /* Spacing */
   --spacing-page: clamp(4rem, 12vw, 16rem); /* 64px - 256px */
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: var(--font-primary);
+    background-color: var(--color-background);
+    color: var(--color-dark);
+    margin: 0;
+    padding: 0;
+  }
 }

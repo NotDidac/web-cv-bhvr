@@ -1,3 +1,2 @@
-export * from "./layout";
-export * from "./sections";
-export * from "./ui";
+export { default as Button } from "./Button";
+export { default as SectionHeader } from "./SectionHeader";
