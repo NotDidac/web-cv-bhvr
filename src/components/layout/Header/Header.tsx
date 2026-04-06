@@ -1,11 +1,12 @@
 import logo from "../../../assets/images/shared/logo.png";
+import Button from "../../Button";
 
 function Header() {
   return (
-    <header className="">
-      <img src={logo} alt="Logo" className="" />
+    <header className="px-page flex flex-wrap items-center justify-between">
+      <img src={logo} alt="Logo" className="max-w-[clamp(30px,5vw,50px)]" />
       <nav>
-        <ul>
+        <ul className="align-center flex gap-8">
           <li>
             <a href="#home">Home</a>
           </li>
@@ -23,7 +24,7 @@ function Header() {
           </li>
         </ul>
       </nav>
-      <button className="">Hire Me</button>
+      <Button title="Hire Me" onClick={() => alert("Hire Me clicked!")} />
     </header>
   );
 }

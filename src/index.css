@@ -11,5 +11,26 @@
 @import "tailwindcss";
 
 @theme {
+  /* Font Families */
   --font-sans: "Montserrat", "Open Sans", sans-serif;
+
+  /* Colors - Primary Palette */
+  --color-primary: #f7b948;
+  --color-secondary: #fbc462;
+  --color-dark: #222;
+  --color-light: #fff;
+
+  /* Colors - Background Variations */
+  --color-background: #fff;
+  --color-background-alt: #f0f0f0;
+  --color-background-grey: #2d2d2d;
+  --color-background-dark: #252525;
+
+  /* Colors - Semantic */
+  --color-success: #3cb948;
+  --color-error: #ff8787;
+  --color-info: #17b9c8;
+
+  /* Spacing */
+  --spacing-page: clamp(4rem, 12vw, 16rem); /* 64px - 256px */
 }
