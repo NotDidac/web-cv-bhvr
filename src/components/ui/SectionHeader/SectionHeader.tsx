@@ -1,8 +1,6 @@
-import styles from "./SectionHeader.module.css";
-
 function SectionHeader({ title }: { title: string }) {
   return (
-    <div className={styles.sectionHeader}>
+    <div className="">
       <h2>{title}</h2>
     </div>
   );

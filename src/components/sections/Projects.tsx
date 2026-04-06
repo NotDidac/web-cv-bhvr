@@ -2,9 +2,9 @@ import SectionHeader from "../ui/SectionHeader";
 
 function Projects() {
   return (
-    <section id="projects" className="scroll-snap">
+    <section id="projects" className="">
       <SectionHeader title="Projects" />
-      <div className="content-block">
+      <div className="">
         <h2>Skycreeper Puzzle Solver</h2>
         <h3>C - Backtracking Algorithm</h3>
         <p>
@@ -12,7 +12,7 @@ function Projects() {
           suscipit omnis quod cum sapiente.
         </p>
       </div>
-      <div className="content-block bg-alt">
+      <div className="">
         <h2>Another project...</h2>
         <h3>Python - Data Analysis</h3>
         <p>

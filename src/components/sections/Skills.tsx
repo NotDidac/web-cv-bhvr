@@ -2,9 +2,9 @@ import SectionHeader from "../ui/SectionHeader";
 
 function Skills() {
   return (
-    <section id="skills" className="scroll-snap">
+    <section id="skills" className="">
       <SectionHeader title="Skills" />
-      <div className="content-block">
+      <div className="">
         <h2>TO-DO</h2>
       </div>
     </section>

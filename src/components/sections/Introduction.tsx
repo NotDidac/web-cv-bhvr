@@ -1,7 +1,7 @@
 function Introduction() {
   return (
     <section id="introduction">
-      <div className="content-block">
+      <div className="">
         <h2>Hello World !</h2>
         <h3>I am 24 years old...</h3>
         <p>
