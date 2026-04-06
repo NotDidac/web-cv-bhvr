@@ -18,10 +18,6 @@ export default {
         error: "#ff8787",
         info: "#17b9c8",
       },
-      fontFamily: {
-        primary: ["Montserrat-Light", "sans-serif"],
-        secondary: ["OpenSans-Light", "sans-serif"],
-      },
     },
   },
   plugins: [],
