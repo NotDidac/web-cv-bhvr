@@ -6,10 +6,10 @@ function Hero() {
   return (
     <section
       id="home"
-      className="px-page text-light bg-cover bg-center py-20"
+      className="px-page text-light bg-cover bg-center pt-10 pb-25"
       style={{ backgroundImage: `url(${sectionHeaderBg})` }}
     >
-      <div className="flex flex-col justify-between lg:flex-row">
+      <div className="flex flex-col items-center justify-between lg:flex-row">
         <div>
           <h2 className="text-6xl/relaxed">
             Hi, I'm <span className="text-primary">Dídac</span>
@@ -23,13 +23,13 @@ function Hero() {
           <Button
             title="View Projects"
             onClick={() => alert("View Projects clicked!")}
-            className="px-6 text-lg/loose"
+            className="rounded-md px-6 text-lg/loose"
           />
         </div>
         <img
           src={profilePhoto}
           alt="Dídac Guillem Mimó"
-          className="max-w-[clamp(150px,30vw,700px)]"
+          className="mt-10 max-w-[clamp(150px,30vw,700px)] drop-shadow-2xl"
         />
       </div>
     </section>

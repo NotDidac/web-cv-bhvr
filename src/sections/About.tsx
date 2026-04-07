@@ -1,8 +1,8 @@
 import SectionHeader from "@/components/SectionHeader";
 
-function AboutMe() {
+function About() {
   return (
-    <section id="about-me" className="">
+    <section id="about" className="">
       <SectionHeader title="About Me" />
       <div className="">
         <h2>TO-DO</h2>
@@ -11,4 +11,4 @@ function AboutMe() {
   );
 }
 
-export default AboutMe;
+export default About;

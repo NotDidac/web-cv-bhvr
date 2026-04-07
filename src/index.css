@@ -32,7 +32,7 @@
   --color-info: #17b9c8;
 
   /* Spacing */
-  --spacing-page: clamp(4rem, 12vw, 16rem); /* 64px - 256px */
+  --spacing-page: clamp(4rem, 14vw, 18rem); /* 64px - 288px */
 }
 
 @layer base {

@@ -3,11 +3,11 @@ import {
   Introduction,
   Projects,
   Skills,
-  AboutMe,
+  About,
   Contact,
-} from "./sections";
+} from "@/sections";
 
-import { Navbar, Footer } from "./layout";
+import { Navbar, Footer } from "@/layout";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Introduction />
         <Projects />
         <Skills />
-        <AboutMe />
+        <About />
         <Contact />
       </main>
       <Footer />
