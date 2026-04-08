@@ -33,11 +33,7 @@ function Navbar() {
           ))}
         </ul>
       </nav>
-      <Button
-        title="Hire Me"
-        onClick={() => alert("Hire Me clicked!")}
-        className="rounded-2xl px-6"
-      />
+      <Button>Hire Me</Button>
     </header>
   );
 }

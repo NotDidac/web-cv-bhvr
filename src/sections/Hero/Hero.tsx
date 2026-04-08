@@ -20,11 +20,7 @@ function Hero() {
           <p className="my-6 py-4 text-lg/loose">
             C • Python • HTML • CSS • JavaScript • React
           </p>
-          <Button
-            title="View Projects"
-            onClick={() => alert("View Projects clicked!")}
-            className="rounded-md px-6 text-lg/loose"
-          />
+          <Button size="large">View Projects</Button>
         </div>
         <img
           src={profilePhoto}
