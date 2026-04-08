@@ -3,6 +3,9 @@ import sectionHeaderBg from "@/assets/images/shared/section-header.png";
 import Button from "@/components/Button/Button";
 
 function Hero() {
+  function handleClick() {
+    alert("View Projects clicked!");
+  }
   return (
     <section
       id="home"
@@ -20,7 +23,9 @@ function Hero() {
           <p className="my-6 py-4 text-lg/loose">
             C • Python • HTML • CSS • JavaScript • React
           </p>
-          <Button size="large">View Projects</Button>
+          <Button size="large" onClick={handleClick}>
+            View Projects
+          </Button>
         </div>
         <img
           src={profilePhoto}

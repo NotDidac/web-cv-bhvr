@@ -9,7 +9,7 @@ function Button({
   ...props
 }: ButtonProps) {
   const baseClasses =
-    "bg-dark text-light hover:bg-primary-alt border-primary rounded-2xl cursor-pointer border-2 transition-colors duration-500";
+    "bg-dark text-light hover:bg-primary-alt border-primary rounded-2xl cursor-pointer border-2 transition-colors duration-500 leading-tight";
   const sizeClasses = {
     small: "px-4 py-1 text-sm",
     default: "px-6 py-2 text-base",
@@ -18,9 +18,7 @@ function Button({
   const classes = `${baseClasses} ${sizeClasses[size]} ${className}`;
   return (
     <button className={classes} {...props}>
-      <span className="relative flex items-center justify-center gap-2">
-        {children}
-      </span>
+      <span className="whitespace-nowrap">{children}</span>
     </button>
   );
 }

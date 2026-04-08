@@ -10,8 +10,11 @@ const navLinks = [
 ];
 
 function Navbar() {
+  function handleClick() {
+    alert("Hire Me clicked!");
+  }
   return (
-    <header className="px-page flex w-full flex-wrap items-center justify-between py-0.5">
+    <header className="px-page flex w-full items-center justify-between py-0.5">
       <a href="#home">
         <img
           src={logo}
@@ -19,13 +22,13 @@ function Navbar() {
           className="max-w-[clamp(30px,5vw,50px)] transition-transform duration-100 hover:scale-105"
         />
       </a>
-      <nav>
-        <ul className="align-center flex gap-8">
+      <nav className="flex items-center justify-center px-8">
+        <ul className="flex items-center justify-center gap-8">
           {navLinks.map((link, index) => (
             <li key={index}>
               <a
                 href={link.href}
-                className="hover:text-primary transition-colors duration-300"
+                className="hover:text-primary text-xl transition-colors duration-300"
               >
                 {link.name}
               </a>
@@ -33,7 +36,9 @@ function Navbar() {
           ))}
         </ul>
       </nav>
-      <Button>Hire Me</Button>
+      <Button className="hidden md:flex" onClick={handleClick}>
+        Hire Me
+      </Button>
     </header>
   );
 }
